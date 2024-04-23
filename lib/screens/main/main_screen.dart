@@ -5,21 +5,6 @@ class MainScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Row(
-        children: [
-          Expanded(
-            child: Container(
-              decoration: BoxDecoration(color: Colors.white),
-            ),
-          ),
-          Expanded(
-            child: Container(
-              decoration: BoxDecoration(color: Colors.white),
-            ),
-          ),
-        ],
-      ),
-    );
+    return Scaffold();
   }
 }
