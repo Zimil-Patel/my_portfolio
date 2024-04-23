@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_portfolio/components/animated_linear_progress_indicator.dart';
 import 'package:my_portfolio/utils/constants.dart';
 
 class Coding extends StatelessWidget {
@@ -11,11 +12,12 @@ class Coding extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        SizedBox(
+        const SizedBox(
           height: defaultPadding,
         ),
+
         //DIVIDER
-        Divider(),
+        const Divider(),
 
         //CODING INFO
         Padding(
@@ -26,14 +28,29 @@ class Coding extends StatelessWidget {
           ),
         ),
 
-        TweenAnimationBuilder(
-          duration: defaultDuration,
-          tween: Tween<double>(begin: 0, end: 0.8),
-          builder: (context, double value, child) => LinearProgressIndicator(
-            value: value,
-            color: primaryColor,
-            backgroundColor: darkColor,
-          ),
+        const AnimatedLinearProgressIndicator(
+          languageName: 'Dart',
+          percentage: 86,
+        ),
+
+        const AnimatedLinearProgressIndicator(
+          languageName: 'C',
+          percentage: 90,
+        ),
+
+        const AnimatedLinearProgressIndicator(
+          languageName: 'C++',
+          percentage: 93,
+        ),
+
+        const AnimatedLinearProgressIndicator(
+          languageName: 'Java',
+          percentage: 60,
+        ),
+
+        const AnimatedLinearProgressIndicator(
+          languageName: 'Python',
+          percentage: 50,
         ),
       ],
     );
