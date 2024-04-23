@@ -22,9 +22,7 @@ class MainScreen extends StatelessWidget {
               //RIGHT PART OF SCREEN - HOME SCREEN
               Expanded(
                 flex: 7,
-                child: Container(
-                  decoration: const BoxDecoration(color: Colors.blue),
-                ),
+                child: Container(),
               ),
             ],
           ),

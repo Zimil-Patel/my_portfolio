@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/screens/main/components/address_column.dart';
 import 'package:my_portfolio/screens/main/components/coding.dart';
+import 'package:my_portfolio/screens/main/components/cv_and_social_media.dart';
 import 'package:my_portfolio/screens/main/components/my_info.dart';
 import 'package:my_portfolio/screens/main/components/skills.dart';
 import 'package:my_portfolio/utils/constants.dart';
+
+import 'knowledges.dart';
 
 class SideMenu extends StatelessWidget {
   const SideMenu({
@@ -30,6 +33,12 @@ class SideMenu extends StatelessWidget {
 
                   //CODING
                   Coding(),
+
+                  //KNOWLEDGE
+                  Knowledge(),
+
+                  //DOWNLOAD BUTTON
+                  CVAndSocialMedia(),
                 ],
               ),
             ),
