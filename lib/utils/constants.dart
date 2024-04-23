@@ -11,6 +11,6 @@ const defaultPadding = 20.0;
 const defaultDuration = Duration(seconds: 1);
 const maxWidth = 1440.0;
 
-const profilePhoto = 'assets/images/IMG_7344.jpg';
+const profilePhoto = 'assets/images/bg.jpeg';
 const profileName = 'Zimil Patel';
 const profileBio = 'Flutter Devloper & Founder of\nThe Flutter Way';
