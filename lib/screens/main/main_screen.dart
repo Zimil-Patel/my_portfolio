@@ -14,7 +14,7 @@ class MainScreen extends StatelessWidget {
           child: Row(
             children: [
               //LEFT PART - DRAWER
-              Expanded(
+              const Expanded(
                 flex: 2,
                 child: SideMenu(),
               ),
