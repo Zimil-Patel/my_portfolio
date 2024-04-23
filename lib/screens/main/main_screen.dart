@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:my_portfolio/screens/main/components/side_menu.dart';
+import 'package:my_portfolio/utils/constants.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({Key? key}) : super(key: key);
@@ -6,19 +8,27 @@ class MainScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Row(
-        children: [
-          Expanded(
-            child: Container(
-              decoration: BoxDecoration(color: Colors.white),
-            ),
+      body: Center(
+        child: Container(
+          constraints: const BoxConstraints(maxWidth: maxWidth),
+          child: Row(
+            children: [
+              //LEFT PART - DRAWER
+              Expanded(
+                flex: 2,
+                child: SideMenu(),
+              ),
+
+              //RIGHT PART OF SCREEN - HOME SCREEN
+              Expanded(
+                flex: 7,
+                child: Container(
+                  decoration: const BoxDecoration(color: Colors.blue),
+                ),
+              ),
+            ],
           ),
-          Expanded(
-            child: Container(
-              decoration: BoxDecoration(color: Colors.white),
-            ),
-          ),
-        ],
+        ),
       ),
     );
   }
