@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:my_portfolio/screens/home/home_screen.dart';
@@ -15,6 +17,8 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
+        scrollBehavior: const MaterialScrollBehavior().copyWith(
+      dragDevices: {PointerDeviceKind.mouse, PointerDeviceKind.touch, PointerDeviceKind.stylus, PointerDeviceKind.unknown},),
       theme: ThemeData.dark().copyWith(
         useMaterial3: false,
         primaryColor: primaryColor,
