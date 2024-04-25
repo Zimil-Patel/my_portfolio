@@ -20,9 +20,9 @@ class MainScreen extends StatelessWidget {
                 child: SideMenu(),
               ),
 
-
-              const SizedBox(width: defaultPadding,),
-
+              const SizedBox(
+                width: defaultPadding,
+              ),
 
               //RIGHT PART OF SCREEN - HOME SCREEN
               Expanded(
