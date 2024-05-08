@@ -33,11 +33,15 @@ Today we will show you how you can create your developer portfolio website and a
 - In Chrome
 <br></br>
 
-https://github.com/Zimil-Patel/my_portfolio/assets/112332000/fed0bca0-fdd0-4500-a0a1-f304eb8bf7eb
+https://github.com/Zimil-Patel/my_portfolio/assets/112332000/30bac761-5b97-4a6e-8e0f-d0a02aa8ea84
 
 - In Ios devices
 <br></br>
 
 https://github.com/Zimil-Patel/my_portfolio/assets/112332000/3ebb68b3-8b91-4f69-8c13-16f2d54b1287
+
+
+
+
 
 
