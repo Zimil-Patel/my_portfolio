@@ -12,6 +12,8 @@ const defaultPadding = 20.0;
 const defaultDuration = Duration(seconds: 1);
 const maxWidth = 1440.0;
 
-const profilePhoto = 'assets/images/bg.jpeg';
+const bgPhoto = 'assets/images/2.png';
+const profilePhoto = 'assets/images/zimil.jpg';
 const profileName = 'Zimil Patel';
-const profileBio = 'Flutter Devloper & Founder of\nThe Flutter Way';
+const profileBio = 'Mobile App Developer | Flutter';
+const circleBorder = 'assets/images/circle_border.png';

@@ -23,7 +23,7 @@ class ProjectCard extends StatelessWidget {
           //TITLE
           Text(
             project.title!,
-            style: Theme.of(context).textTheme.subtitle2,
+            style: Theme.of(context).textTheme.titleSmall,
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
           ),

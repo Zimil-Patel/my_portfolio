@@ -27,7 +27,7 @@ class MyInfo extends StatelessWidget {
             //NAME
             Text(
               profileName,
-              style: Theme.of(context).textTheme.subtitle2,
+              style: Theme.of(context).textTheme.titleSmall,
             ),
             //BIO
             const Text(

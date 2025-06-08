@@ -12,13 +12,13 @@ class HomeBanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AspectRatio(
-      aspectRatio: Responsive.isMobile(context) ? 2.5 : 3,
+      aspectRatio: Responsive.isMobile(context) ? 1.8 : 3,
       child: Stack(
         fit: StackFit.expand,
         children: [
           //BACKGROUND IMAGE
           Image.asset(
-            profilePhoto,
+            bgPhoto,
             fit: BoxFit.cover,
           ),
           Container(
@@ -33,13 +33,13 @@ class HomeBanner extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  'Discover my Amazing\nArt Space!',
+                  'Discover my journey\n as a developer!',
                   style: Responsive.isDesktop(context)
-                      ? Theme.of(context).textTheme.headline3!.copyWith(
+                      ? Theme.of(context).textTheme.displaySmall!.copyWith(
                             fontWeight: FontWeight.bold,
                             color: Colors.white,
                           )
-                      : Theme.of(context).textTheme.headline6!.copyWith(
+                      : Theme.of(context).textTheme.titleLarge!.copyWith(
                             fontWeight: FontWeight.bold,
                             color: Colors.white,
                           ),
@@ -52,7 +52,7 @@ class HomeBanner extends StatelessWidget {
                 const SizedBox(
                   height: defaultPadding,
                 ),
-                if (!Responsive.isMobileLarge(context))
+                // if (!Responsive.isMobileLarge(context))
                   ElevatedButton(
                       onPressed: () {},
                       style: TextButton.styleFrom(
@@ -63,7 +63,7 @@ class HomeBanner extends StatelessWidget {
                         backgroundColor: primaryColor,
                       ),
                       child: const Text(
-                        'EXPLORE NOW',
+                        'GET IN TOUCH',
                         style: TextStyle(color: darkColor),
                       )),
               ],
@@ -83,7 +83,7 @@ class MyBuildAnimatedText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTextStyle(
-      style: Theme.of(context).textTheme.subtitle1!,
+      style: Theme.of(context).textTheme.titleMedium!,
       maxLines: 1,
       child: Row(
         children: [
@@ -93,7 +93,7 @@ class MyBuildAnimatedText extends StatelessWidget {
               width: defaultPadding / 2,
             ),
           const Text('I build '),
-          Responsive.isMobile(context) ? Expanded(child: AnimatedText()) : const AnimatedText(),
+          Responsive.isMobile(context) ? const Expanded(child: AnimatedText()) : const AnimatedText(),
           if (!Responsive.isMobileLarge(context)) const FlutterCodedText(),
           if (!Responsive.isMobileLarge(context))
             const SizedBox(
@@ -115,7 +115,11 @@ class AnimatedText extends StatelessWidget {
     return AnimatedTextKit(
       animatedTexts: [
         TyperAnimatedText(
-          'Responsive web and mobile app.',
+          'Responsive mobile app.',
+          speed: const Duration(milliseconds: 60),
+        ),
+        TyperAnimatedText(
+          'Employee real time attendance',
           speed: const Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
@@ -123,7 +127,7 @@ class AnimatedText extends StatelessWidget {
           speed: const Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          'Chat app with dark and light theme.',
+          'Chat app with Firebase.',
           speed: const Duration(milliseconds: 60),
         ),
       ],

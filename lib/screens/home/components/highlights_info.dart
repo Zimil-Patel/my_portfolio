@@ -21,28 +21,28 @@ class HighlightsInfo extends StatelessWidget {
               value: 119,
               text: 'K+',
             ),
-            lable: 'Subscribers',
+            label: 'Subscribers',
           ),
           Highlight(
             counter: AnimatedCounter(
               value: 40,
               text: '+',
             ),
-            lable: 'Videos',
+            label: 'Videos',
           ),
           Highlight(
             counter: AnimatedCounter(
               value: 30,
               text: '+',
             ),
-            lable: 'Github Projects',
+            label: 'Github Projects',
           ),
           Highlight(
             counter: AnimatedCounter(
               value: 13,
               text: 'K+',
             ),
-            lable: 'Stars',
+            label: 'Stars',
           ),
         ],
       ) : Column(
@@ -55,14 +55,14 @@ class HighlightsInfo extends StatelessWidget {
                   value: 119,
                   text: 'K+',
                 ),
-                lable: 'Subscribers',
+                label: 'Subscribers',
               ),
               Highlight(
                 counter: AnimatedCounter(
                   value: 40,
                   text: '+',
                 ),
-                lable: 'Videos',
+                label: 'Videos',
               ),
             ],
           ),
@@ -77,14 +77,14 @@ class HighlightsInfo extends StatelessWidget {
                   value: 30,
                   text: '+',
                 ),
-                lable: 'Github Projects',
+                label: 'Github Projects',
               ),
               Highlight(
                 counter: AnimatedCounter(
                   value: 13,
                   text: 'K+',
                 ),
-                lable: 'Stars',
+                label: 'Stars',
               ),
             ],
           ),

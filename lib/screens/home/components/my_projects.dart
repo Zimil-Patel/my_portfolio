@@ -14,9 +14,19 @@ class MyProjects extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          'My Projects',
-          style: Theme.of(context).textTheme.headline6,
+
+        const SizedBox(height: defaultPadding),
+
+        Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              'My Projects',
+              style: Theme.of(context).textTheme.titleLarge,
+            ),
+            const SizedBox(width: defaultPadding),
+            Image.asset('assets/images/projects.png', fit: BoxFit.contain, height: 30, width: 30,),
+          ],
         ),
 
         const SizedBox(

@@ -28,7 +28,7 @@ class CVAndSocialMedia extends StatelessWidget {
                 Text(
                   'Download CV',
                   style: TextStyle(
-                      color: Theme.of(context).textTheme.bodyText1!.color),
+                      color: Theme.of(context).textTheme.bodyLarge!.color),
                 ),
                 const SizedBox(
                   width: defaultPadding / 2,

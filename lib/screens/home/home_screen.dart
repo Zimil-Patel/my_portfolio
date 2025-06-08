@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:my_portfolio/screens/home/components/highlights_info.dart';
 import 'package:my_portfolio/screens/home/components/my_projects.dart';
 import 'package:my_portfolio/screens/main/main_screen.dart';
 
@@ -18,7 +17,7 @@ class HomeScreen extends StatelessWidget {
       HomeBanner(),
 
       //HIGH LIGHTS INFO IN ROW
-      HighlightsInfo(),
+      // HighlightsInfo(),
 
       //MY PROJECTS
       MyProjects(),

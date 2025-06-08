@@ -5,11 +5,11 @@ class Highlight extends StatelessWidget {
   const Highlight({
     super.key,
     required this.counter,
-    this.lable,
+    this.label,
   });
 
   final Widget counter;
-  final String? lable;
+  final String? label;
 
   @override
   Widget build(BuildContext context) {
@@ -20,8 +20,8 @@ class Highlight extends StatelessWidget {
           width: defaultPadding / 2,
         ),
         Text(
-          lable!,
-          style: Theme.of(context).textTheme.subtitle2,
+          label!,
+          style: Theme.of(context).textTheme.titleSmall,
         )
       ],
     );

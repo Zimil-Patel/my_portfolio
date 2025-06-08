@@ -23,7 +23,7 @@ class RecommendationCard extends StatelessWidget {
           //NAME
           Text(
             recommendation.name!,
-            style: Theme.of(context).textTheme.subtitle2,
+            style: Theme.of(context).textTheme.titleSmall,
           ),
           //SOURCE
           Text(recommendation.source!),
