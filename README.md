@@ -1,7 +1,5 @@
 # Responsive and Animated Portfolio Website & App - Flutter UI
 
-## [Watch it on YouTube](https://youtu.be/G_ZIJseX6AU)
-
 **Packages we are using:**
 
 - flutter_svg: [link](https://pub.dev/packages/flutter_svg)
@@ -16,6 +14,34 @@ Today we will show you how you can create your developer portfolio website and a
 
 ### Responsive and Animated Portfolio Website & App Final UI
 
-![Preview](/gif.gif)
+### Screenshots 📷
 
-![App UI](/ui.png)
+- 15 Pro
+<br></br>
+<img src="https://github.com/Zimil-Patel/my_portfolio/assets/112332000/da81e370-5fcb-479c-81fd-1b544b2ddd8c" height="580" width="280"> &nbsp;&nbsp;&nbsp;&nbsp;
+
+- 15 Pro Max
+<br></br>
+<img src="https://github.com/Zimil-Patel/my_portfolio/assets/112332000/4220bdbe-559a-472d-8e3b-45ae43056d2e" height="580" width="280"> &nbsp;&nbsp;&nbsp;&nbsp;
+
+- iPad Pro
+<br></br>
+<img src="https://github.com/Zimil-Patel/my_portfolio/assets/112332000/ee5b7791-b489-49af-9121-5b9647d752e2">
+
+### Video Preview 🎥
+
+- In Chrome
+<br></br>
+
+https://github.com/Zimil-Patel/my_portfolio/assets/112332000/30bac761-5b97-4a6e-8e0f-d0a02aa8ea84
+
+- In Ios devices
+<br></br>
+
+https://github.com/Zimil-Patel/my_portfolio/assets/112332000/3ebb68b3-8b91-4f69-8c13-16f2d54b1287
+
+
+
+
+
+
